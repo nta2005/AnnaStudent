@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nta.annastudent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="nta.annastudent.activity.HelloActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="nta.annastudent.activity.MainActivity" />
+        <activity android:name="nta.annastudent.activity.LoginActivity" />
+        <activity android:name="nta.annastudent.activity.ChangePassActivity" />
+        <activity android:name="nta.annastudent.activity.ListNguoiDungActivity" />
+        <activity android:name="nta.annastudent.activity.ThemNguoiDungActivity" />
+        <activity android:name="nta.annastudent.activity.NguoiDungDetailActivity" />
+        <activity android:name="nta.annastudent.activity.ListTheLoaiActivity" />
+        <activity android:name="nta.annastudent.activity.TheLoaiActivity" />
+        <activity android:name="nta.annastudent.activity.TheLoaiDetailActivity" />
+        <activity android:name="nta.annastudent.activity.ListSachActivity" />
+        <activity android:name="nta.annastudent.activity.ThemSachActivity" />
+        <activity android:name="nta.annastudent.activity.SachDetailActivity" />
+        <activity android:name="nta.annastudent.activity.ListHoaDonActivity" />
+        <activity android:name="nta.annastudent.activity.ThemHoaDonActivity" />
+        <activity android:name="nta.annastudent.activity.HoaDonDetailActivity" />
+        <activity android:name="nta.annastudent.activity.HoaDonChiTietActivity" />
+        <activity android:name="nta.annastudent.activity.ListThongKeActivity" />
+        <activity android:name="nta.annastudent.activity.ListBanChayActivity"></activity>
+    </application>
+
+</manifest>
